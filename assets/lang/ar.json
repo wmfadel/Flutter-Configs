@@ -3,5 +3,7 @@
     "language_button": "تغيير اللغة",
     "english": "english",
     "arabic": "العربية",
-    "default": "الافتراضى"
+    "default": "افتراضى",
+    "light": "مضئ",
+    "dark": "مظلم"
 }

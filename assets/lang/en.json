@@ -2,6 +2,8 @@
     "app_bar": "Hello",
     "language_button": "Change Language",
     "english": "english",
-    "arabic": "العربة",
-    "default": "default"
+    "arabic": "العربية",
+    "default": "default",
+    "light": "light",
+    "dark": "dark"
 }

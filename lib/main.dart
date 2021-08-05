@@ -38,9 +38,7 @@ class MyApp extends StatelessWidget {
             }
             return availableLocales.first;
           },
-          theme: ThemeData(
-            primarySwatch: Colors.blue,
-          ),
+          theme: provider.theme,
           initialRoute: HomePage.routeName,
           routes: {
             HomePage.routeName: (context) => HomePage(),
