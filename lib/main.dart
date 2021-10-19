@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
             GlobalCupertinoLocalizations.delegate,
           ],
           localeResolutionCallback: (locale, availableLocales) {
+            debugPrint('device locale ${locale?.languageCode}');
             for (var available in availableLocales) {
               if (available.languageCode == locale!.languageCode)
                 return available;

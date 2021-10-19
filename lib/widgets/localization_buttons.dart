@@ -26,9 +26,9 @@ class _LocalizationButtonsState extends State<LocalizationButtons> {
     if (loc == null || loc.languageCode != 'ar' && loc.languageCode != 'en') {
       group = 3;
     }
-    if (loc!.languageCode == 'ar') {
+    if (loc?.languageCode == 'ar') {
       group = 1;
-    } else if (loc.languageCode == 'en') {
+    } else if (loc?.languageCode == 'en') {
       group = 2;
     }
   }
